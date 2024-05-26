@@ -1,0 +1,63 @@
+.divMiddleCard {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: start;
+    color: var(--mui-palette-middleTitle-color);
+    padding-left: 30px;
+    height: 150px;
+    color: white;
+}
+
+.divMiddleTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 25px;
+}
+
+.myBody {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.resetContainer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.customExpand {
+
+    margin-left: 15px;
+
+    @media (max-width: 768px) {
+        margin-left: 5px;
+    }
+}
+
+.customChip {
+
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: auto;
+    padding-right: 40px;
+    align-items: center;
+    gap: 5px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        margin-inline-start: auto;
+        align-items: center;
+        gap: 5px;
+    }
+}

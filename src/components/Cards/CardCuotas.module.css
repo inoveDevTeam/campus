@@ -1,81 +1,76 @@
 .centeredContent {
-    display: flex;
-    color: var(--white, #FFF);
-    text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: AvertaStd-Bold;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 3%;
-    justify-content: space-between;
-    margin-inline: auto !important;
-    margin-left: 15px;
-    margin-right: 10px;
-    line-height: 22px;
+  display: flex;
+  color: var(--white, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvertaStd-Bold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 3%;
+  justify-content: space-between;
+  margin-inline: auto !important;
+  margin-left: 15px;
+  margin-right: 10px;
+  line-height: 22px;
 }
 
 .titleH2 {
-    /* color: var(--mui-palette-titleH2-color) !important; */
-    font-size: var(--mui-palette-titleH2-fontSize) !important;
+  font-size: var(--mui-palette-titleH2-fontSize) !important;
 }
 
 .parrafTitle {
-    text-align: start;
-    margin: 11px;
-    color: white;
-    /* color: var(--mui-palette-textTitle-color) !important; */
+  text-align: start;
+  margin: 11px;
+  color: white;
 }
 
 .imageContainerCuotas {
-    color: white;
-    display: flex;
-    justify-content: end;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: -100%;
-    margin-right: 2%;
-    margin-bottom: 0%;
-    align-items: self-start;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .flexContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    background-color: #191A26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #191a26;
 }
 
 .effectIcon {
-    opacity: 1;
-    transition: opacity 0.3s;
-    cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s;
+  cursor: pointer;
 }
 
 .effectIcon:hover {
-    opacity: 0.7;
-  }
+  opacity: 0.7;
+}
 
 .message {
-    cursor: default;
-    /* Deshabilita el cursor de puntero */
-    opacity: 1;
-    /* Anula la opacidad de .effectIcon */
-    margin-top: -1px;
-    white-space: wrap;
-    margin-right: 0px;
-    /* El valor predeterminado */
+  cursor: default;
+  /* Deshabilita el cursor de puntero */
+  opacity: 1;
+  /* Anula la opacidad de .effectIcon */
+  margin-top: -1px;
+  white-space: wrap;
+  margin-right: 0px;
+  /* El valor predeterminado */
 }
 
 .message:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .message.messageDescargarRecibo {
-    margin-right: -5px;
+  margin-right: -5px;
 }

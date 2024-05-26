@@ -1,0 +1,121 @@
+.borderStyle {
+  border: 2px solid var(--mui-palette-action-active);
+  border-radius: 10px;
+}
+
+.sectionPrincipal {
+  border-radius: 10px;
+  text-align: start;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+}
+
+.articleMain {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.containerFullScreen {
+  width: clamp(300px, 60%, 800px);
+  height: clamp(400px, 97%, 1200px);
+  margin-left: 130px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  gap: 60px;
+}
+
+.containerResponsiveScreen {
+  width: clamp(400px, 80%, 800px);
+  height: clamp(400px, 99%, 1200px);
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+/* styles.module.css */
+.box {
+  margin-left: 20px;
+  width: calc(100% - 40px);
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+  cursor: default;
+}
+
+.box:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.box:active {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+}
+
+.boxDatosSobreTi {
+  margin-left: 20px;
+  width: calc(100% - 40px);
+  transition: all 0.2s ease-in-out;
+}
+
+.boxDatosSobreTi:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.boxDatosSobreTi:active {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+}
+
+.InputPropsAcercaDe {
+  font-size: 16px;
+  max-height: 200px;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  display: flex;
+  align-items: flex-start;
+}
+
+.boxDestacado {
+  font-size: 16px;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.boxActividad {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -35px;
+}
+
+.startAdornmentBoxActividad {
+  font-size: 16px;
+  max-height: 250px;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.startAdornmentBoxDatosSobreTi {
+  font-size: 16px;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

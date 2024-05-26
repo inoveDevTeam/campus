@@ -22,7 +22,6 @@ export default function CurrentCourses() {
       .get()
       .then((response) => {
         setData(response.results);
-        console.log(response.results);
       })
       .catch((error) => {
         console.log(`${error.response.status} | ${error.response.data.detail}`);
